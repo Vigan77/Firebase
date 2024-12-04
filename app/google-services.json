@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525582329508",
+    "project_id": "fir-uas-67e4e",
+    "storage_bucket": "fir-uas-67e4e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525582329508:android:59a6cc22caba013c07a831",
+        "android_client_info": {
+          "package_name": "coba.paba.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeBDGB1zjM-gnX3l36K14v3ked0rZbQs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

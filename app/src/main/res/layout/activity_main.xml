@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+    android:id="@+id/main">
+
+
+        <!-- EditText untuk Nama Provinsi -->
+        <EditText
+            android:id="@+id/etProvinsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama Provinsi"
+            android:padding="8dp"
+            android:inputType="text" />
+
+        <!-- EditText untuk Ibukota Provinsi -->
+        <EditText
+            android:id="@+id/etIbukota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Ibukota provinsi"
+            android:padding="8dp"
+            android:inputType="text"
+            android:layout_marginTop="8dp" />
+
+        <!-- Tombol Simpan Data -->
+        <Button
+            android:id="@+id/btSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Data"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+        <!-- ListView untuk menampilkan data -->
+        <ListView
+            android:id="@+id/lvData"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:paddingTop="16dp" />
+
+    </LinearLayout>
